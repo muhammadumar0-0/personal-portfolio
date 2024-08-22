@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/71bd8c0a61.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- navbar section -->
+    <div class="top">
+        <nav id="navbar">
+            <a href="#welcome-section"><li>About</li></a>
+            <a href="#projects"><li>Work</li></a>
+            <a href="#contacts"><li>Contact</li></a>
+        </nav>
+    </div>
+    <!-- Main Welcome Section -->
+    <div class="main section" id="welcome-section">
+        <h1 class="welcome-title">Hey I am Umar</h1>
+        <h2 class="welcome-subtitle">a web dev</h2>
+    </div>
+    <!-- Projects Section -->
+    <div class="project-section section" id="projects">
+        <h1>These are some of my Projects</h1>
+        <div class="project-cards">
+            <a href="" class="card">
+                <img src="pictures/img-1.jpg" alt="">
+                <h3>Random 1</h3>
+            </a href="">
+            <a href="" class="card">
+                <img src="pictures/img-2.jpg" alt="">
+                <h3>Random 2</h3>
+            </a href="">
+            <a href="" class="card">
+                <img src="pictures/img-3.jpg" alt="">
+                <h3>Random 3</h3>
+            </a href="">
+            <a href="" class="card">
+                <img src="pictures/img-4.jpg" alt="">
+                <h3>Random 4</h3>
+            </a href="">
+            <a href="" class="card">
+                <img src="pictures/img-5.jpg" alt="">
+                <h3>Random 5</h3>
+            </a href="">
+            <a href="" class="card">
+                <img src="pictures/img-6.jpg" alt="">
+                <h3>Random 6</h3>
+            </a>
+        </div>
+    </div>
+    <!-- Contact Links Section -->
+    <div class="contact-section section" id="contacts">
+        <h1>Let's Work Together</h1>
+        <form action="https://api.web3forms.com/submit" method="POST" >
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="813116ea-b2c0-4c71-aaa3-a5415c7e9740">
+            <!-- Form Inputs. Each input must have a name="" attribute -->
+            <label for="name">Name</label>
+            <input type="text" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" required></textarea>
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+            <button type="submit">Submit Form</button>
+        </form>
+        <div class="contact-links">
+            <a href="https://github.com/muhammadumar0-0"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/muhammadumar0_"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+    </div>
+</body>
+</html>
